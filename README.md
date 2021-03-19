@@ -1,6 +1,6 @@
-\ 
-\ 
-\ 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 This repository contains slides and Jupyter notebooks for a workshop on Bayesian decision analysis.
 
 [The slides for the workshop are available as a Google doc](https://docs.google.com/presentation/d/e/2PACX-1vSiSklzdkm4NoyEx5-jrKtpXfDMCr3iCK_ZPwgplWJALsxb5rmNOHL85iwCBFcNMf1lCo6n-Eh1gIwm/pub).
