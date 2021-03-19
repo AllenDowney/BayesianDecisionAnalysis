@@ -1,0 +1,12 @@
+name: BayesianDecisionAnalysis
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - python
+  - jupyter
+  - numpy
+  - matplotlib
+  - seaborn
+  - pandas
+  - scipy
