@@ -1,4 +1,5 @@
-*Bayesian Decision Analysis*
+
+
 
 This repository contains slides and Jupyter notebooks for a workshop on Bayesian decision analysis.
 
