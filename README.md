@@ -3,7 +3,14 @@
 <p>&nbsp;</p>
 This repository contains slides and Jupyter notebooks for a workshop on Bayesian decision analysis.
 
-[The slides for the workshop are available as a Google doc](https://docs.google.com/presentation/d/e/2PACX-1vSqEEhwzKyzIRGORZpEuU-a0iFyePxslNBhRB6f-3wFVQjZlj119EXlAOTFz02WQzh1oYFYjG1-RWIf/pub).
+For ODSC East 2022, [here are the slides](https://docs.google.com/presentation/d/e/2PACX-1vRCiX-0igbr5NL6eyhfTJLe7gbPUHd0zFWglgm8VywqBed4IEQzRxiI4S7SPQpiacoqFweihmKjN773/pub).
+
+* [Here is the notebook for the workshop]()
+
+* [Here is the notebook with solutions]()
+
+
+For the extended version of the workshop, [here are the slides](https://docs.google.com/presentation/d/e/2PACX-1vSqEEhwzKyzIRGORZpEuU-a0iFyePxslNBhRB6f-3wFVQjZlj119EXlAOTFz02WQzh1oYFYjG1-RWIf/pub).
 
 For each of the notebooks below, you have two options: if you view the notebook on NBViewer, you can read it, but you can't run the code.  If you run the notebook on Colab, you'll be able to run the code, do the exercises, and save your modified version of the notebook in a Google Drive (if you have one).
 
