@@ -5,9 +5,9 @@ This repository contains slides and Jupyter notebooks for a workshop on Bayesian
 
 For ODSC East 2022, [here are the slides](https://docs.google.com/presentation/d/e/2PACX-1vRCiX-0igbr5NL6eyhfTJLe7gbPUHd0zFWglgm8VywqBed4IEQzRxiI4S7SPQpiacoqFweihmKjN773/pub).
 
-* [Here is the notebook for the workshop]()
+* [Here is the notebook for the workshop](https://colab.research.google.com/github/AllenDowney/BayesianDecisionAnalysis/blob/main/bda_workshop.ipynb)
 
-* [Here is the notebook with solutions]()
+* [Here is the notebook with solutions](https://colab.research.google.com/github/AllenDowney/BayesianDecisionAnalysis/blob/main/soln/bda_workshop.ipynb)
 
 
 For the extended version of the workshop, [here are the slides](https://docs.google.com/presentation/d/e/2PACX-1vSqEEhwzKyzIRGORZpEuU-a0iFyePxslNBhRB6f-3wFVQjZlj119EXlAOTFz02WQzh1oYFYjG1-RWIf/pub).
