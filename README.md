@@ -5,9 +5,9 @@ This repository contains slides and Jupyter notebooks for a workshop on Bayesian
 
 For PyData Global 2022, [here are the slides](https://docs.google.com/presentation/d/e/2PACX-1vTP6Xwls3yF9osvXG78tiH8vvaBHXDtUDHvQiGhVtUrgFflWWyBgqbkqRy9cDTCxS1nxnI5P09TPDxY/pub).
 
-* [Here is the notebook for the workshop](https://colab.research.google.com/github/AllenDowney/BayesianDecisionAnalysis/blob/main/bda_workshop.ipynb)
+* Here is the notebook for the workshop: [Run it on Colab](https://colab.research.google.com/github/AllenDowney/BayesianDecisionAnalysis/blob/main/bda_workshop.ipynb) or [Download it](https://raw.githubusercontent.com/AllenDowney/BayesianDecisionAnalysis/main/bda_workshop.ipynb)
 
-* [Here is the notebook with solutions](https://colab.research.google.com/github/AllenDowney/BayesianDecisionAnalysis/blob/main/soln/bda_workshop.ipynb)
+* Here is the notebook with solutions: [Run it on Colab](https://colab.research.google.com/github/AllenDowney/BayesianDecisionAnalysis/blob/main/soln/bda_workshop.ipynb) or [Download it](https://raw.githubusercontent.com/AllenDowney/BayesianDecisionAnalysis/main/soln/bda_workshop.ipynb).
 
 
 For the extended version of the workshop, [here are the slides](https://docs.google.com/presentation/d/e/2PACX-1vSqEEhwzKyzIRGORZpEuU-a0iFyePxslNBhRB6f-3wFVQjZlj119EXlAOTFz02WQzh1oYFYjG1-RWIf/pub).
