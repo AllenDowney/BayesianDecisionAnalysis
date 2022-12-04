@@ -2,6 +2,8 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
+## PyData Global
+
 This repository contains slides and Jupyter notebooks for a tutorial on Bayesian Decision Analysis. Most recently I presented it at [PyData Global 2022](https://global2022.pydata.org/cfp/talk/LRRXLV/).
 
 **Abstract**
@@ -28,9 +30,9 @@ For this tutorial, you should be familiar with Python at an intermediate level. 
 
 * [Here is the video from the workshop](https://numfocus-org.zoom.us/rec/play/ydC9AQRgCrt4sMLNOsZGRfyXS2m6ABCf4pkT1VOKz9GUS9rx4l4QBI4uO02tYmd52QiMKv5Iw1fpPvYt.2dqb6I4WTGAgZ7f-)
 
-* [here are the slides](https://docs.google.com/presentation/d/e/2PACX-1vTP6Xwls3yF9osvXG78tiH8vvaBHXDtUDHvQiGhVtUrgFflWWyBgqbkqRy9cDTCxS1nxnI5P09TPDxY/pub).
+* [Here are the slides](https://docs.google.com/presentation/d/e/2PACX-1vTP6Xwls3yF9osvXG78tiH8vvaBHXDtUDHvQiGhVtUrgFflWWyBgqbkqRy9cDTCxS1nxnI5P09TPDxY/pub).
 
-* Here is the notebook with blank cells to fill in: [Run it on Colab](https://colab.research.google.com/github/AllenDowney/BayesianDecisionAnalysis/blob/main/bda_workshop.ipynb) or [Download it](https://raw.githubusercontent.com/AllenDowney/BayesianDecisionAnalysis/main/bda_workshop.ipynb)
+* Here is the notebook with blank cells for you to fill in: [Run it on Colab](https://colab.research.google.com/github/AllenDowney/BayesianDecisionAnalysis/blob/main/bda_workshop.ipynb) or [Download it](https://raw.githubusercontent.com/AllenDowney/BayesianDecisionAnalysis/main/bda_workshop.ipynb)
 
 * Here is the notebook with solutions: [Run it on Colab](https://colab.research.google.com/github/AllenDowney/BayesianDecisionAnalysis/blob/main/soln/bda_workshop.ipynb) or [Download it](https://raw.githubusercontent.com/AllenDowney/BayesianDecisionAnalysis/main/soln/bda_workshop.ipynb).
 
