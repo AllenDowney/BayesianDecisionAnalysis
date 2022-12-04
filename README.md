@@ -1,14 +1,17 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-This repository contains slides and Jupyter notebooks for a workshop on Bayesian decision analysis.
+This repository contains slides and Jupyter notebooks for a workshop on Bayesian decision analysis. Most recently I persented this workshop at [PyData Global 2022](https://global2022.pydata.org/cfp/talk/LRRXLV/).
 
-For PyData Global 2022, [here are the slides](https://docs.google.com/presentation/d/e/2PACX-1vTP6Xwls3yF9osvXG78tiH8vvaBHXDtUDHvQiGhVtUrgFflWWyBgqbkqRy9cDTCxS1nxnI5P09TPDxY/pub).
+* [Here is the video from the workshop](https://numfocus-org.zoom.us/rec/play/ydC9AQRgCrt4sMLNOsZGRfyXS2m6ABCf4pkT1VOKz9GUS9rx4l4QBI4uO02tYmd52QiMKv5Iw1fpPvYt.2dqb6I4WTGAgZ7f-)
 
-* Here is the notebook for the workshop: [Run it on Colab](https://colab.research.google.com/github/AllenDowney/BayesianDecisionAnalysis/blob/main/bda_workshop.ipynb) or [Download it](https://raw.githubusercontent.com/AllenDowney/BayesianDecisionAnalysis/main/bda_workshop.ipynb)
+* [here are the slides](https://docs.google.com/presentation/d/e/2PACX-1vTP6Xwls3yF9osvXG78tiH8vvaBHXDtUDHvQiGhVtUrgFflWWyBgqbkqRy9cDTCxS1nxnI5P09TPDxY/pub).
+
+* Here is the notebook with blank cells to fill in: [Run it on Colab](https://colab.research.google.com/github/AllenDowney/BayesianDecisionAnalysis/blob/main/bda_workshop.ipynb) or [Download it](https://raw.githubusercontent.com/AllenDowney/BayesianDecisionAnalysis/main/bda_workshop.ipynb)
 
 * Here is the notebook with solutions: [Run it on Colab](https://colab.research.google.com/github/AllenDowney/BayesianDecisionAnalysis/blob/main/soln/bda_workshop.ipynb) or [Download it](https://raw.githubusercontent.com/AllenDowney/BayesianDecisionAnalysis/main/soln/bda_workshop.ipynb).
 
+## Previous versions
 
 For the extended version of the workshop, [here are the slides](https://docs.google.com/presentation/d/e/2PACX-1vSqEEhwzKyzIRGORZpEuU-a0iFyePxslNBhRB6f-3wFVQjZlj119EXlAOTFz02WQzh1oYFYjG1-RWIf/pub).
 
