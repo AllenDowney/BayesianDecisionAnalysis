@@ -1,7 +1,30 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-This repository contains slides and Jupyter notebooks for a workshop on Bayesian decision analysis. Most recently I persented this workshop at [PyData Global 2022](https://global2022.pydata.org/cfp/talk/LRRXLV/).
+
+This repository contains slides and Jupyter notebooks for a tutorial on Bayesian Decision Analysis. Most recently I presented it at [PyData Global 2022](https://global2022.pydata.org/cfp/talk/LRRXLV/).
+
+**Abstract**
+
+This tutorial is a hands-on introduction to Bayesian Decision Analysis (BDA), which is a framework for using probability to guide decision-making under uncertainty. I start with Bayes's Theorem, which is the foundation of Bayesian statistics, and work toward the Bayesian bandit strategy, which is used for A/B testing, medical tests, and related applications. For each step, I provide a Jupyter notebook where you can run Python code and work on exercises. In addition to the bandit strategy, I summarize two other applications of BDA, optimal bidding and deriving a decision rule. Finally, I suggest resources you can use to learn more.
+
+The examples in this tutorial are from [Think Bayes](https://greenteapress.com/wp/think-bayes/).
+
+**Outline**
+
+* Problem statement: A/B testing, medical tests, and the Bayesian bandit problem 
+* Prerequisites and goals 
+* Bayes's theorem and the five urn problem 
+* Using Pandas to represent a PMF 
+* Estimating proportions 
+* From belief to strategy 
+* Implementing and testing Thompson sampling 
+* More generally: two other examples of BDA 
+* Resources and next steps
+
+**Prerequisites**
+
+For this tutorial, you should be familiar with Python at an intermediate level. We'll use NumPy, SciPy, and Pandas, but I'll explain what you need to know as we go. You should be familiar with basic probability, but you don't need to know anything about Bayesian statistics. I provide Jupyter notebooks that run on Colab, so you don't have to install anything or prepare ahead of time. But you should be familiar with Jupyter notebooks.
 
 * [Here is the video from the workshop](https://numfocus-org.zoom.us/rec/play/ydC9AQRgCrt4sMLNOsZGRfyXS2m6ABCf4pkT1VOKz9GUS9rx4l4QBI4uO02tYmd52QiMKv5Iw1fpPvYt.2dqb6I4WTGAgZ7f-)
 
