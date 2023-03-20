@@ -28,7 +28,7 @@ The examples in this tutorial are from [Think Bayes](https://greenteapress.com/w
 
 For this tutorial, you should be familiar with Python at an intermediate level. We'll use NumPy, SciPy, and Pandas, but I'll explain what you need to know as we go. You should be familiar with basic probability, but you don't need to know anything about Bayesian statistics. I provide Jupyter notebooks that run on Colab, so you don't have to install anything or prepare ahead of time. But you should be familiar with Jupyter notebooks.
 
-* [Here is the video from the workshop](https://numfocus-org.zoom.us/rec/play/ydC9AQRgCrt4sMLNOsZGRfyXS2m6ABCf4pkT1VOKz9GUS9rx4l4QBI4uO02tYmd52QiMKv5Iw1fpPvYt.2dqb6I4WTGAgZ7f-)
+* [Here is the video from the workshop](https://youtu.be/fsdbneHgi58?t=228)
 
 * [Here are the slides](https://docs.google.com/presentation/d/e/2PACX-1vTP6Xwls3yF9osvXG78tiH8vvaBHXDtUDHvQiGhVtUrgFflWWyBgqbkqRy9cDTCxS1nxnI5P09TPDxY/pub).
 
