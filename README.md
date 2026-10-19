@@ -6,6 +6,10 @@
 
 This repository contains slides and Jupyter notebooks for a tutorial on Bayesian Decision Analysis. Most recently I presented it at [PyData Global 2022](https://global2022.pydata.org/cfp/talk/LRRXLV/).
 
+
+For a newer version that uses PyMC, see [Bayesian Decision Analysis with PyMC](https://github.com/AllenDowney/BDAwithPyMC). This is one of [my workshops and tutorials](https://allendowney.github.io/#workshops).
+
+
 **Abstract**
 
 This tutorial is a hands-on introduction to Bayesian Decision Analysis (BDA), which is a framework for using probability to guide decision-making under uncertainty. I start with Bayes's Theorem, which is the foundation of Bayesian statistics, and work toward the Bayesian bandit strategy, which is used for A/B testing, medical tests, and related applications. For each step, I provide a Jupyter notebook where you can run Python code and work on exercises. In addition to the bandit strategy, I summarize two other applications of BDA, optimal bidding and deriving a decision rule. Finally, I suggest resources you can use to learn more.
