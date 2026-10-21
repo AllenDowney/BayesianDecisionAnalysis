@@ -11,7 +11,7 @@ Student versions (with blanks) are at the top level; solutions are in `soln/` un
 - `bda_workshop.ipynb`: the PyData Global 2022 workshop, one notebook.
 - `01_cookie`, `02_pmf`, `03_euro`, `04_bandit`: the extended version (2021).
 
-They need only NumPy, pandas, SciPy, Matplotlib and Seaborn; no data files and no helper modules.
+They need only NumPy, pandas, SciPy and Matplotlib; no data files and no helper modules.
 
 Edit the solutions in `soln/`; the root `build.sh` copies `soln/0*.ipynb` up and runs `remove_soln.py` to make the student versions (cells tagged `fill-in` are emptied, cells starting with `# Solution` are blanked, outputs cleared). `bda_workshop.ipynb` is not covered by `build.sh`.
 
@@ -23,6 +23,7 @@ Edit the solutions in `soln/`; the root `build.sh` copies `soln/0*.ipynb` up and
 
 - `pydata-global-2022`: the code in the PyData Global 2022 video.
 - `pre-refresh-2026`: the state before the 2026 refresh.
+- `2026-refresh`: the refreshed version (Python 3.13, 2026-10-21).
 
 ## Testing
 
