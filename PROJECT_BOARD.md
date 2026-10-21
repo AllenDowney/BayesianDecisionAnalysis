@@ -43,11 +43,15 @@ Numbered tasks for tracking work. Each task has a permanent number; add new task
 - [x] Everything else under "Content issues"
 
 **5. README in the standard shape**
-- [ ] Self-study line at the top; title, badge, author, abstract, level, length, outline, notebook table, slides, recordings with tags, running instructions, next steps (BDAwithPyMC, *Think Bayes*, hub), license
+- [x] README rewritten (2026-10-21): title, badge, author, self-study line with BDAwithPyMC, abstract, *Think Bayes* (2e site), hub link, level (introductory; intermediate Python), length (about 90 minutes, Allen), outline, workshop table and extended-version table with Colab links, both slide decks, recordings (ODSC East 2022; PyData Global 2022 with tag `pydata-global-2022`), running instructions (Colab, pip, mamba), next steps, license (code MIT, text CC BY-NC-SA 4.0). Quiz and NBViewer links dropped. All links return 200
+- [x] README: each recording lists its tag (step 0 item)
 
 **6. Site and visibility** (self-study: no new site)
-- [ ] Existing site is the README via Jekyll (Pages: `main` /, root `_config.yml`); rebuild and do the `plans/seo.md` checklist on it
-- [ ] Hub entry, repo description and topics
+- [x] Site is the README via Jekyll (Pages: `main` /). `_config.yml` (2026-10-21): title, description (Allen approved), `url`/`baseurl`, `jekyll-sitemap`, `jekyll-seo-tag`, Think Bayes cover as social image, `exclude:` so the README is the only page. Page-view counter in `_includes/head-custom.html`
+- [x] Checked live: title "Bayesian Decision Analysis | <description>", one `name="description"`, `og:description`, `og:image`, `rel="canonical"`, counter script; `sitemap.xml` lists only the landing page; `PROJECT_BOARD.html` and `CLAUDE.html` now 404 (they were public from 2026-10-20 until this change)
+- [x] `Sitemap:` line in `~/AllenDowney.github.io/robots.txt` (pushed, `9bad4f6`)
+- [ ] Allen submits the sitemap in Search Console; tick in GreenTeaPress Task 22
+- [x] Repo description (Allen approved) and topic `thompson-sampling` set with `gh`; `scripts/repo_about.sh` entry updated (GreenTeaPress, uncommitted). Hub entry still accurate, no change
 
 **7. Close**
 - [ ] Tag `2026-refresh`; note in GreenTeaPress Task 24
