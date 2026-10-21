@@ -1,1 +1,31 @@
 theme: jekyll-theme-minimal
+title: Bayesian Decision Analysis
+description: "A hands-on Python tutorial on Bayesian decision analysis: Bayes's theorem, estimating proportions, and Thompson sampling for the Bayesian bandit."
+url: https://allendowney.github.io
+baseurl: /BayesianDecisionAnalysis
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# social image: the cover of Think Bayes, which the examples come from
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: https://greenteapress.com/wp/wp-content/uploads/2021/04/think_bayes_2e_cover_small.jpg
+        alt: Cover of Think Bayes by Allen B. Downey
+
+# the README is the only page
+exclude:
+  - PROJECT_BOARD.md
+  - CLAUDE.md
+  - soln/
+  - videos/
+  - "*.ipynb"
+  - "*.py"
+  - "*.sh"
+  - "*.yml"
+  - "*.txt"
+  - LICENSE
