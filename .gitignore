@@ -134,3 +134,7 @@ dmypy.json
 
 # Local workshop recordings (2021)
 videos/
+
+# Jupyter Book build and the notebook copied in by prep_notebooks.py
+jb/_build/
+jb/bda_workshop.ipynb

@@ -46,11 +46,12 @@ Numbered tasks for tracking work. Each task has a permanent number; add new task
 - [x] README rewritten (2026-10-21): title, badge, author, self-study line with BDAwithPyMC, abstract, *Think Bayes* (2e site), hub link, level (introductory; intermediate Python), length (about 90 minutes, Allen), outline, workshop table and extended-version table with Colab links, both slide decks, recordings (ODSC East 2022; PyData Global 2022 with tag `pydata-global-2022`), running instructions (Colab, pip, mamba), next steps, license (code MIT, text CC BY-NC-SA 4.0). Quiz and NBViewer links dropped. All links return 200
 - [x] README: each recording lists its tag (step 0 item)
 
-**6. Site and visibility** (self-study: no new site)
+**6. Site and visibility** (self-study: no new site by default; Allen chose a small notebook site, 2026-10-21)
 - [x] Site is the README via Jekyll (Pages: `main` /). `_config.yml` (2026-10-21): title, description (Allen approved), `url`/`baseurl`, `jekyll-sitemap`, `jekyll-seo-tag`, Think Bayes cover as social image, `exclude:` so the README is the only page. Page-view counter in `_includes/head-custom.html`
 - [x] Checked live: title "Bayesian Decision Analysis | <description>", one `name="description"`, `og:description`, `og:image`, `rel="canonical"`, counter script; `sitemap.xml` lists only the landing page; `PROJECT_BOARD.html` and `CLAUDE.html` now 404 (they were public from 2026-10-20 until this change)
 - [x] `Sitemap:` line in `~/AllenDowney.github.io/robots.txt` (pushed, `9bad4f6`)
 - [x] Allen submitted the sitemap in Search Console (2026-10-21); ticked in GreenTeaPress Task 22
+- [x] Notebook site (Allen, 2026-10-21; replaces the Jekyll README site above): `jb/` from the BayesMadeSimple template, a landing page (`index.md`) and `bda_workshop` only (page title "From Bayes's Theorem to Bayesian Bandits", since the notebook's H1 is the site title); the extended version is linked on Colab. Descriptions approved by Allen. Test build in scratch: sitemap lists the two pages; each has one description, `og:description`, canonical, the Think Bayes cover and the counter. Published with `./build.sh publish`; Pages switched from `main` / to `gh-pages`; root `_config.yml` and `_includes/` removed. Sitemap URL unchanged, so `robots.txt` and Search Console need nothing new
 - [x] Repo description (Allen approved) and topic `thompson-sampling` set with `gh`; `scripts/repo_about.sh` entry updated (GreenTeaPress, uncommitted). Hub entry still accurate, no change
 
 **7. Close**
