@@ -32,7 +32,8 @@ Numbered tasks for tracking work. Each task has a permanent number; add new task
 - [x] `.github/workflows/tests.yml` (push to `main`, PR, monthly, manual; Python 3.12; pip with `requirements-dev.txt`; 20-minute timeout; `actions/checkout@v5`, `actions/setup-python@v6`); badge at the top of the README. First run passed in 39 s (2026-10-20, run 39521304861). Annotation: `ubuntu-latest` moves to Ubuntu 26 from 2026-10-19 (informational)
 
 **3. Colab**
-- [ ] "Click here to run this notebook on Colab" cell after the title of each notebook (solutions also link to the version with blanks); Colab links in the README table
+- [x] "Click here to run this notebook on Colab" cell after the title of all ten notebooks; solutions also link to the version with blanks (2026-10-20). README table: step 5
+- [x] Build scripts: `remove_soln.py` now points the Colab cell at the student version; root `build.sh` passed no filenames to `remove_soln.py` (so it did nothing), now `0*.ipynb`. A scratch rebuild from `soln/` reproduces the committed student versions of `01`–`04` exactly (after carrying "wining" → "winning" into the student `04_bandit`). `bda_workshop` is outside `build.sh`; keep it in sync by hand
 - [ ] Allen runs one notebook on Colab end to end
 
 **4. Text**
