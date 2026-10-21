@@ -1,3 +1,5 @@
+[![tests](https://github.com/AllenDowney/BayesianDecisionAnalysis/actions/workflows/tests.yml/badge.svg)](https://github.com/AllenDowney/BayesianDecisionAnalysis/actions/workflows/tests.yml)
+
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
