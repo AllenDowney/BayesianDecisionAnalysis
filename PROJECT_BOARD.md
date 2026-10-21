@@ -85,7 +85,11 @@ All notebooks use NumPy, pandas, SciPy (`interpolate`, `stats`), Matplotlib and 
 
 (For Allen to decide.)
 
-1. Recordings in `videos/` (2021): published anywhere? If so, link them from the README.
-2. The Google Forms quizzes and the two slide decks: still live and still matching the notebooks?
-3. ODSC East 2022: add to the README's venues (no recording).
-4. Text license: notebooks say CC BY-NC-SA 4.0; keep that (as in BiteSizeBayes) or another CC license?
+Resolved 2026-10-20 (Allen):
+
+1. The 2021 recordings in `videos/` were never published; leave them local and out of the README.
+2. Drop the Google Forms quiz links from the README; keep the slides (step 5).
+3. List ODSC East 2022 among the README's venues, with no recording (step 5).
+4. Text license stays CC BY-NC-SA 4.0; code is MIT (step 4 notebook layout, step 5 README).
+
+Open: none yet.
