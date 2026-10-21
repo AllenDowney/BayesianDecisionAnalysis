@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Jupyter and test caches
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local workshop recordings (2021)
+videos/
