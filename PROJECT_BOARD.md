@@ -8,7 +8,7 @@ Numbered tasks for tracking work. Each task has a permanent number; add new task
 
 ## Task 1: Refresh
 
-**Status:** In progress (2026-10-20)
+**Status:** DONE (2026-10-21)
 
 **Context:** BayesianDecisionAnalysis is a **self-study** workshop (GreenTeaPress Task 24): not offered live now, but the notebooks are maintained and run on Colab. BDAwithPyMC is the newer take; the README points to it. Guide: the "Refresh checklist" (self-study variant) in `~/GreenTeaPress/plans/workshops.md`; BayesMadeSimple and CompStats are worked examples. 78 stars. Given at ODSC East 2022 and PyData Global 2022; the recording is [PyData Global 2022](https://www.youtube.com/watch?v=fsdbneHgi58).
 
@@ -18,10 +18,10 @@ Numbered tasks for tracking work. Each task has a permanent number; add new task
 - [x] Tags (pushed 2026-10-20): `pydata-global-2022` at `74fee29` (2022-11-29, the last commit before the conference, Dec 1–3; the next commits are README edits on 12-04); `pre-refresh-2026` at `2c84da0`. ODSC East 2022 was not recorded, so no tag
 - [ ] README: each recording lists its tag
 - [x] Inventory (below)
-- [x] Environment: `mamba env create -f environment.yml` (created as `BayesianDecisionAnalysis`, 2026-10-20: Python 3.12.15, NumPy 2.5, pandas 3.0, SciPy 1.18, Matplotlib 3.11)
+- [x] Environment: `mamba env create -f environment.yml` (created as `BayesianDecisionAnalysis`, 2026-10-20; recreated on Python 3.13.16 on 2026-10-21: NumPy 2.5, pandas 3.0, SciPy 1.18, Matplotlib 3.11)
 
 **1. Runs in a current environment**
-- [x] `environment.yml` rewritten (2026-10-20): conda-forge, Python 3.12, Jupyter, the four libraries, pytest, nbmake. Seaborn dropped (no notebook imports it). `requirements.txt` (unpinned; Colab has all four) and `requirements-dev.txt` (adds Jupyter, pytest, nbmake)
+- [x] `environment.yml` rewritten (2026-10-20): conda-forge, Python 3.13 (Colab's since 2026-08-19; moved from 3.12 on 2026-10-21 after the checklist changed, and the solutions re-checked with warnings as errors), Jupyter, the four libraries, pytest, nbmake. Seaborn dropped (no notebook imports it). `requirements.txt` (unpinned; Colab has all four) and `requirements-dev.txt` (adds Jupyter, pytest, nbmake)
 - [x] Install/download cell: none needed (no data, no helpers, Colab has everything)
 - [x] Breakage and deprecation warnings: none. All five solution notebooks run with Deprecation/Future/PendingDeprecation/User/Runtime warnings as errors. Student versions fail only at their blanks (`NameError`: `02_pmf` 5 cells, `03_euro` 6, `04_bandit` 2, `bda_workshop` 8; `01_cookie` runs)
 - [x] `np.set_printoptions(legacy='1.25')` in the import cell of all ten notebooks; re-ran `soln/03_euro` and `soln/bda_workshop` (the two saved with outputs; now fully executed, no `np.float64(` in outputs)
@@ -29,12 +29,12 @@ Numbered tasks for tracking work. Each task has a permanent number; add new task
 
 **2. Tests and CI**
 - [x] `pytest --nbmake soln/*.ipynb`: the five solutions pass (about 15 s). Student versions not tested (Allen, 2026-10-20): they stop at their blanks, and no `raises-exception` tags
-- [x] `.github/workflows/tests.yml` (push to `main`, PR, monthly, manual; Python 3.12; pip with `requirements-dev.txt`; 20-minute timeout; `actions/checkout@v5`, `actions/setup-python@v6`); badge at the top of the README. First run passed in 39 s (2026-10-20, run 39521304861). Annotation: `ubuntu-latest` moves to Ubuntu 26 from 2026-10-19 (informational)
+- [x] `.github/workflows/tests.yml` (push to `main`, PR, monthly, manual; Python 3.13 (3.12 until 2026-10-21); pip with `requirements-dev.txt`; 20-minute timeout; `actions/checkout@v5`, `actions/setup-python@v6`); badge at the top of the README. First run passed in 39 s (2026-10-20, run 39521304861). Annotation: `ubuntu-latest` moves to Ubuntu 26 from 2026-10-19 (informational)
 
 **3. Colab**
 - [x] "Click here to run this notebook on Colab" cell after the title of all ten notebooks; solutions also link to the version with blanks (2026-10-20). README table: step 5
 - [x] Build scripts: `remove_soln.py` now points the Colab cell at the student version; root `build.sh` passed no filenames to `remove_soln.py` (so it did nothing), now `0*.ipynb`. A scratch rebuild from `soln/` reproduces the committed student versions of `01`–`04` exactly (after carrying "wining" → "winning" into the student `04_bandit`). `bda_workshop` is outside `build.sh`; keep it in sync by hand
-- [ ] Allen runs one notebook on Colab end to end
+- [x] Allen ran `soln/bda_workshop` on Colab end to end (2026-10-21)
 
 **4. Text**
 - [x] Typos and docstrings (2026-10-20, student and solution versions): "divide-and conquer", "the the" (2), a missing period, "probide", "Having see", "Aposteori"/"aposteori" → "A Posteriori"/"a posteriori", "probabily", "prior believe", "proability", "If use", "each distributions", "Chose a machine", "an end itself", `num_play` → `num_plays`, "decisions theory", "9 loss" → "9 losses"; 02_pmf exercise "bowls 51 through 101" → "100" (bowls go 0–100) and its solution plot title 'One cookie' → 'Three draws'; `credible_interval` docstring said "Compute the mean of a PMF"; `update` docstring said "Likelihood function for Bayesian bandit"
@@ -50,11 +50,11 @@ Numbered tasks for tracking work. Each task has a permanent number; add new task
 - [x] Site is the README via Jekyll (Pages: `main` /). `_config.yml` (2026-10-21): title, description (Allen approved), `url`/`baseurl`, `jekyll-sitemap`, `jekyll-seo-tag`, Think Bayes cover as social image, `exclude:` so the README is the only page. Page-view counter in `_includes/head-custom.html`
 - [x] Checked live: title "Bayesian Decision Analysis | <description>", one `name="description"`, `og:description`, `og:image`, `rel="canonical"`, counter script; `sitemap.xml` lists only the landing page; `PROJECT_BOARD.html` and `CLAUDE.html` now 404 (they were public from 2026-10-20 until this change)
 - [x] `Sitemap:` line in `~/AllenDowney.github.io/robots.txt` (pushed, `9bad4f6`)
-- [ ] Allen submits the sitemap in Search Console; tick in GreenTeaPress Task 22
+- [x] Allen submitted the sitemap in Search Console (2026-10-21); ticked in GreenTeaPress Task 22
 - [x] Repo description (Allen approved) and topic `thompson-sampling` set with `gh`; `scripts/repo_about.sh` entry updated (GreenTeaPress, uncommitted). Hub entry still accurate, no change
 
 **7. Close**
-- [ ] Tag `2026-refresh`; note in GreenTeaPress Task 24
+- [x] Tag `2026-refresh` (2026-10-21); note in GreenTeaPress Task 24
 
 ### Inventory (2026-10-20)
 
