@@ -37,9 +37,10 @@ Numbered tasks for tracking work. Each task has a permanent number; add new task
 - [ ] Allen runs one notebook on Colab end to end
 
 **4. Text**
-- [ ] Clear typos, wrong docstrings, broken links (codespell; read the markdown)
-- [ ] Notebook layout: one `#` H1 title, at most a one-line subtitle, Colab cell, `##` sections; copyright ("Copyright 2021–2026 Allen Downey") and license (code MIT, text CC BY-NC-SA 4.0?) in a markdown cell at the end. Student and solution versions alike
-- [ ] Everything else under "Content issues"
+- [x] Typos and docstrings (2026-10-20, student and solution versions): "divide-and conquer", "the the" (2), a missing period, "probide", "Having see", "Aposteori"/"aposteori" → "A Posteriori"/"a posteriori", "probabily", "prior believe", "proability", "If use", "each distributions", "Chose a machine", "an end itself", `num_play` → `num_plays`, "decisions theory", "9 loss" → "9 losses"; 02_pmf exercise "bowls 51 through 101" → "100" (bowls go 0–100) and its solution plot title 'One cookie' → 'Three draws'; `credible_interval` docstring said "Compute the mean of a PMF"; `update` docstring said "Likelihood function for Bayesian bandit"
+- [x] Links: MacKay http → https; LessWrong wiki link → `lesswrong.com/w/bayesian-decision-theory` (as in BayesMadeSimple); the rest return 200
+- [x] Notebook layout: H1 title plus one-line subtitle ("Examples and exercises for the tutorial [Bayesian Decision Analysis](…)", as in CompStats), Colab cell, `##` sections; copyright ("2021–2026"; `bda_workshop` "2022–2026") and licenses (code MIT, text CC BY-NC-SA 4.0) in a cell at the end; the old trailing empty cell dropped. Rebuilding 01–04 with `build.sh` still reproduces the student versions; `bda_workshop` versions aligned cell for cell (its student blanks are `fill-in` cells)
+- [x] Everything else under "Content issues"
 
 **5. README in the standard shape**
 - [ ] Self-study line at the top; title, badge, author, abstract, level, length, outline, notebook table, slides, recordings with tags, running instructions, next steps (BDAwithPyMC, *Think Bayes*, hub), license
@@ -93,4 +94,12 @@ Resolved 2026-10-20 (Allen):
 3. List ODSC East 2022 among the README's venues, with no recording (step 5).
 4. Text license stays CC BY-NC-SA 4.0; code is MIT (step 4 notebook layout, step 5 README).
 
-Open: none yet.
+Open (from the step 4 read-through, 2026-10-20):
+
+5. `02_pmf`, "Summarizing the posterior": "The posterior distribution has a peak near 60%" and two lines later "The peak … is at 67%".
+6. `03_euro`, batting-average exercise solution: `likelihood_hit = xs / 100`, but here `xs` are batting averages (0 to 0.5), so it should be `xs`. The answer is the same (the factor cancels when normalizing), but it's misleading.
+7. `03_euro` says "`Pmf`" / "takes a Pmf" where the code uses a `Series` (BayesMadeSimple reworded the same text).
+8. `04_bandit`: the sentence before `pmf_choice` describes `choose` (it "chooses among the machines … proportional to its probability of superiority"); `bda_workshop` says "equal to", which is right.
+9. `bda_workshop`: after `update`, "It uses the quantities in the index to compute the likelihood" no longer matches the code, which uses the global `likelihood_win` and `likelihood_loss`.
+10. `bda_workshop` and `04_bandit`: exercises are numbered "Exercise 3" and "Exercise 4" with no 1 and 2 (leftovers from the longer version).
+11. `bda_workshop`: "The results are the same as what we worked through in the slides" (fine with the slides; odd for self-study).
