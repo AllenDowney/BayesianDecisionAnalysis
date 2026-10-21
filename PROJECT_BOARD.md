@@ -18,14 +18,14 @@ Numbered tasks for tracking work. Each task has a permanent number; add new task
 - [x] Tags (pushed 2026-10-20): `pydata-global-2022` at `74fee29` (2022-11-29, the last commit before the conference, Dec 1–3; the next commits are README edits on 12-04); `pre-refresh-2026` at `2c84da0`. ODSC East 2022 was not recorded, so no tag
 - [ ] README: each recording lists its tag
 - [x] Inventory (below)
-- [ ] Environment: `mamba env create -f environment.yml` (name `BayesianDecisionAnalysis`), after `environment.yml` is rewritten in step 1
+- [x] Environment: `mamba env create -f environment.yml` (created as `BayesianDecisionAnalysis`, 2026-10-20: Python 3.12.15, NumPy 2.5, pandas 3.0, SciPy 1.18, Matplotlib 3.11)
 
 **1. Runs in a current environment**
-- [ ] `environment.yml` (conda-forge, Python 3.12, pytest, nbmake), `requirements.txt`, `requirements-dev.txt`
-- [ ] Install/download cell if needed (probably none: Colab has all five libraries; no data, no helpers)
-- [ ] Breakage and deprecation warnings (run scratch copies with warnings as errors)
-- [ ] `np.set_printoptions(legacy='1.25')` in the cell that imports NumPy; re-run notebooks saved with outputs
-- [ ] Replace NBViewer/Binder-era instructions with Colab first, then pip or mamba
+- [x] `environment.yml` rewritten (2026-10-20): conda-forge, Python 3.12, Jupyter, the four libraries, pytest, nbmake. Seaborn dropped (no notebook imports it). `requirements.txt` (unpinned; Colab has all four) and `requirements-dev.txt` (adds Jupyter, pytest, nbmake)
+- [x] Install/download cell: none needed (no data, no helpers, Colab has everything)
+- [x] Breakage and deprecation warnings: none. All five solution notebooks run with Deprecation/Future/PendingDeprecation/User/Runtime warnings as errors. Student versions fail only at their blanks (`NameError`: `02_pmf` 5 cells, `03_euro` 6, `04_bandit` 2, `bda_workshop` 8; `01_cookie` runs)
+- [x] `np.set_printoptions(legacy='1.25')` in the import cell of all ten notebooks; re-ran `soln/03_euro` and `soln/bda_workshop` (the two saved with outputs; now fully executed, no `np.float64(` in outputs)
+- [ ] Replace NBViewer instructions in the README with Colab first, then pip or mamba (no Binder here; done with the README in step 5)
 
 **2. Tests and CI**
 - [ ] `pytest --nbmake` on the solutions (and the student versions if they run)
